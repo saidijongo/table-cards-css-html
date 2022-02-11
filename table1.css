@@ -1,0 +1,29 @@
+*{font-family:'Times New Roman', Times, serif;}
+.mytable{background:powderblue;padding:30px 0}
+.tabledesign{text-align:center}
+.tabledesign .tableHeader{padding:30px 0;background:#4d4d4d;position:relative;transition:all .3s ease 0s}
+.tabledesign:hover .tableHeader{background:orange}
+.tabledesign .tableHeader:after,.tabledesign .tableHeader:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #d9d9d8;position:absolute;bottom:12px}
+.tabledesign .tableHeader:before{left:40px}
+.tabledesign .tableHeader:after{right:40px}
+.tabledesign .heading{font-size:20px;color:#fff;text-transform:uppercase;letter-spacing:2px;margin-top:0}
+.tabledesign .value{display:inline-block;position:relative;font-size:55px;font-weight:700;color:greenyellow;transition:all .3s ease 0s}
+.tabledesign:hover .value{color:#fff}
+.tabledesign .currency{font-size:30px;font-weight:700;position:absolute;top:6px;left:-19px}
+.tabledesign .month{font-size:16px;color:#fff;position:absolute;bottom:15px;right:-30px;text-transform:uppercase}
+.tabledesign .tableContent{padding-top:50px;background:#fff;position:relative}
+.tabledesign .tableContent:after,.tabledesign .tableContent:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #7c7c7c;position:absolute;top:12px}
+.tabledesign .tableContent:before{left:40px}
+.tabledesign .tableContent:after{right:40px}
+.tabledesign .tableContent ul{padding:0 20px;margin:0;list-style:none}
+.tabledesign .tableContent ul:after,.tabledesign .tableContent ul:before{content:"";width:8px;height:46px;border-radius:3px;background:linear-gradient(to bottom,#818282 50%,#727373 50%);position:absolute;top:-22px;z-index:1;box-shadow:0 0 5px #707070;transition:all .3s ease 0s}
+.tabledesign:hover .tableContent ul:after,.tabledesign:hover .tableContent ul:before{background:linear-gradient(to bottom,#40c4db 50%,#34bacc 50%)}
+.tabledesign .tableContent ul:before{left:44px}
+.tabledesign .tableContent ul:after{right:44px}
+.tabledesign .tableContent ul li{font-size:15px;font-weight:700;color:#777473;padding:10px 0;border-bottom:1px solid #d9d9d8}
+.tabledesign .tableContent ul li:last-child{border-bottom:none}
+.tabledesign .read{display:inline-block;font-size:16px;color:#fff;text-transform:uppercase;background:#d9d9d8;padding:8px 25px;margin:30px 0;transition:all .3s ease 0s}
+.tabledesign .read:hover{text-decoration:none}
+.tabledesign:hover .read{background:#09b1c5}
+@media screen and (max-width:990px){.tabledesign{margin-bottom:25px}
+}
